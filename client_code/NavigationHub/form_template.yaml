@@ -28,6 +28,7 @@ components:
       properties: {text: Content goes here, font_size: null}
       type: Label
       layout_properties: {grid_position: 'VDAQWT,OSTPNZ'}
+    data_bindings: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
