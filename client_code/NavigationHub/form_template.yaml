@@ -9,7 +9,10 @@ components:
   layout_properties: {slot: default}
   components:
   - name: PrimaryTabs
-    properties: {italic: false, active_tab_index: 0}
+    properties:
+      italic: false
+      active_tab_index: 0
+      tab_titles: [Tab 1, Tab 2, Tab 3]
     type: form:dep_my0xwq4tvnn6:Tabs
     layout_properties: {grid_position: 'AVCDCF,OODJLP', full_width_row: false}
     data_bindings: []
@@ -20,7 +23,7 @@ components:
     layout_properties: {grid_position: 'STQAZD,BKWJIP'}
     event_bindings: {tab_click: SecondaryTabs_tab_click}
   - name: Content
-    properties: {role: elevated-card, visible: false}
+    properties: {role: elevated-card, visible: true}
     type: ColumnPanel
     layout_properties: {grid_position: 'VBGIZY,QAGSLL', full_width_row: false}
     components:

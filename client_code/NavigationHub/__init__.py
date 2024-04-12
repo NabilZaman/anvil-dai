@@ -28,7 +28,8 @@ class NavigationHub(NavigationHubTemplate):
     primary_tab_name = self.PrimaryTabs.tab_titles[self.active_tab]
     self.Content.visible = True
     self.main_text.font_size = 16
-    self.main_text.text = f'This is the {primary_tab_name}/{tab_title} page!'
+    # anvil.open_form(GuestListForm)
+    # self.main_text.text = f'This is the {primary_tab_name}/{tab_title} page!'
 
   def home_nav_button_click(self, **event_args):
     """This method is called when the button is clicked"""
