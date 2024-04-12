@@ -6,11 +6,12 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: {type: form, module: Home}
 package_name: anvil_dai
 allow_embedding: false
 name: anvil-dai
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {title: Dreamdai, description: ''}
-startup_form: Form1
+startup_form: null
 renamed: true

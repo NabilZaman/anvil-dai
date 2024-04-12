@@ -1,0 +1,37 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - name: outlined_card_1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'QYWZBZ,ZYIKDW'}
+    components:
+    - name: label_1
+      properties: {text: Welcome to Dreamdai!!, font_size: 36, align: center}
+      type: Label
+      layout_properties: {grid_position: 'UCVASN,XXKJGA'}
+    - name: label_2
+      properties: {text: Wow!, font_size: 18, align: center, bold: true}
+      type: Label
+      layout_properties: {grid_position: 'EUKQTJ,PLXJAZ'}
+    - name: label_3
+      properties: {text: Much AI!, italic: true, underline: true, bold: false, font_size: 18,
+        align: center}
+      type: Label
+      layout_properties: {grid_position: 'EUKQTJ,WJCESP'}
+  - name: to_navigation
+    properties: {text: Get some  help!, role: elevated-button}
+    type: Button
+    layout_properties: {grid_position: 'LBDHHH,KYBJZU'}
+    event_bindings: {click: to_navigation_click}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
