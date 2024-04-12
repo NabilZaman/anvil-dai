@@ -1,0 +1,20 @@
+container: {type: ColumnPanel}
+components:
+- name: label_1
+  properties: {text: Foo}
+  type: Label
+  layout_properties: {grid_position: 'DVBKFK,KYUGYG TFORGP,ZGDWNM'}
+- name: label_1_copy
+  properties: {text: Foo}
+  type: Label
+  layout_properties: {grid_position: 'DVBKFK,KYUGYG YBMPUU,MMFWJH'}
+- name: label_2
+  properties: {text: Bar}
+  type: Label
+  layout_properties: {grid_position: 'DVBKFK,FHCAOX VCHRYF,HVPDCU'}
+- name: label_1_copy_2
+  properties: {text: Foo}
+  type: Label
+  layout_properties: {grid_position: 'DVBKFK,FHCAOX MWNIBG,XFUYMS'}
+is_package: true
+custom_component: true
