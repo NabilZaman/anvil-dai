@@ -13,7 +13,7 @@ class Home(HomeTemplate):
 
   @property
   def navigation_form(self):
-    if self._hub_form is None:
+    if self._hub_form is None:https://github.com/NabilZaman/anvil-dai.git
       self._hub_form = NavigationHub(home_page=self)
     return self._hub_form
   
