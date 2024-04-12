@@ -1,9 +1,16 @@
+dependencies:
+- dep_id: dep_my0xwq4tvnn6
+  version: {dev: false}
+  resolution_hints: {app_id: C6ZZPAPN4YYF5NVJ, name: Anvil Extras, package_name: anvil_extras}
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+package_name: anvil_dai
 allow_embedding: false
-package_name: M3_App_1
-name: M3 App 1
-startup_form: Form1
-renamed: true
+name: anvil-dai
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-dependencies: []
-services: []
+metadata: {title: Dreamdai, description: ''}
+startup_form: Form1
+renamed: true
