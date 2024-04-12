@@ -16,6 +16,7 @@ class NavigationHub(NavigationHubTemplate):
     # If this tab is already active, deactivate it
     if self.active_tab is not None and self.active_tab == tab_index:
       self.SecondaryTabs.visible = False
+      self.active_tab = None
       return
     # else, enable the appropriate secondary tabs
     self.active_tab = tab_index
